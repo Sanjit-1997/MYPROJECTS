@@ -541,6 +541,7 @@ marquee>ul>li{
         justify-content: space-evenly;
     }
     #right>div>p{
+        display:none;
         font-size: larger;
         padding:5px;
         color:white;
@@ -616,6 +617,7 @@ marquee>ul>li{
         width:100%;
     }
     #beneath>div>p{
+        display:none;
         font-size: larger;
         padding:5px;
         color:white;
