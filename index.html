@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyCommerce</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="header" >
+        <div class="menu" onclick="toggleMenu()">
+            <button >
+                <img src="image/menubutton.jpg">
+            </button>
+        </div>
+        <div class="menucontainer" id="menucontainer">
+            <a>Deliver To</a>
+            <a>Account & SignIn</a>
+            <a>Setting & Privacy</a>
+        </div>
+
+        <div id="logo"> 
+            <img src="image/mylogo.png">
+        </div>
+
+        <div id="location">
+             <img src="image/locationLogo.png">
+             <div id="locationInside">
+                <p >Deliver to</p>
+                <p id="address">Imphal</p>
+             </div>
+        </div>
+
+        <div id="search">
+            <form>
+                <input type="text" placeholder="Search your items" name="search">
+                <button type="button" ><img src="image/searchbutton.png"></button>
+            </form>
+
+        </div>
+
+        <div id="account">
+           <a href="Signin.html">
+             <button>Account & SignIn</button>      
+           </a> 
+        </div>
+
+        <div id="home">
+            <a>HOME</a>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Category</button>
+            <div class="dropdown-content">
+              <a href="mobile.html">Mobile</a>
+              <a href="accessaries.html">Accessaries</a>
+              <a href="electronics.html">Home Appliance</a>
+              <a href="furniture.html">Furniture</a>
+              <a href="clothes.html">Clothes</a>
+            </div>
+          </div>
+        <div id="cart">
+            <img src="image/cart.png">
+        </div>
+        </div>
+
+       
+   
+
+        <div id="hero">
+            <div class="advertise">
+                <a href="electronics.html">
+                <img src="image/homeappliance.png">
+            </a>
+            </div>
+            <div class="advertise">
+                <a href="furniture.html">
+                <img src="image/furniture.png">
+                </a>
+            </div>
+            <div class="advertise"> 
+                <a href="clothes.html">
+                <img src="image/clothes.png">
+                </a>
+            </div>
+            <div class="advertise">
+                <a href="mobile.html">
+                <img src="image/smartphone.png">
+                </a>
+            </div>
+        </div>
+        <div class="slider">
+            <button onclick="prevSlide()"> &lt; </button>
+        </div>
+        <div class="slider1">
+            <button onclick="nextSlide()"> &gt; </button>
+        </div>
+    <div id="boxContainer1">
+        <div class="box">
+            <div class="cell1"><a><img src="image/bed1.jpg"></a></div>
+            <div class="cell2"><a><img src="image/table1.jpeg"></a></div>
+            <div class="cell3"><a><img src="image/sofa.jpg"></a></div>
+            <div class="cell4"><a><img src="image/cupboard1.jpeg"></a></div>
+        </div>
+        <div class="box">
+            <div class="cell1"><a><img src="image/iphone1.jpg"></a></div>
+            <div class="cell2"><a><img src="image/redmi1.jpg"></a></div>
+            <div class="cell3"><a><img src="image/oppo1.jpg"></a></div>
+            <div class="cell4"><a><img src="image/samsung1.jpg"></a></div>
+        </div>
+        <div class="box">
+            <div class="cell1"><a><img src="image/ac1.jpeg"></a></div>
+            <div class="cell2"><a><img src="image/washingmachine1.jpg" ></a></div>
+            <div class="cell3"><a><img src="image/tv.2.avif"></a></div>
+            <div class="cell4"><a><img src="image/sound1.jpg"></a></div>
+        </div>
+    </div>
+    <div id="boxContainer2">
+        <div class="box">
+            <div class="cell1"><a><img src="image/shirt.jpeg"></a></div>
+            <div class="cell2"><a><img src="image/shoes1.jpg"></a></div>
+            <div class="cell3"><a><img src="image/trouser1.jpeg"></a></div>
+            <div class="cell4"><a><img src="image/skirt.webp"></a></div>
+        </div>
+        <div class="box">
+            <div class="cell1"><a><img src="image/pillow1.webp"></a></div>
+            <div class="cell2"><a><img src="image/mattress.jpg"></a></div>
+            <div class="cell3"><a><img src="image/curtain.jpg"></a></div>
+            <div class="cell4"><a><img src="image/blanket.jpg"></a></div>
+        </div>
+        <div class="box">
+            <div class="cell1"><a><img src="image/bat1.jpg"></a></div>
+            <div class="cell2"><a><img src="image/racket1.webp" ></a></div>
+            <div class="cell3"><a><img src="image/football1.jpg"></a></div>
+            <div class="cell4"><a><img src="image/rugby.webp"></a></div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="contactdetails">
+            <h3>Our Contact Details:</h3><br>
+            <a>Facebook</a>
+            <a>Instagram</a>
+            <a>WhatsApp</a>
+            <a>Email</a>
+            <div>Contact</div>
+        </div>
+        <div class="officedetail">
+            <div>
+                <H3>Office Details:</H3><br>
+                Kunja Mart <br>
+                Thiyam Leishangkhong,<br>
+                Wangoi-795123<br>
+                Near Eebudhou Sangkerdev Temple<br>
+                Imphal-west<br>
+                Manipur-795009 </div>
+        </div>
+        <div class="map">
+            <img src="image/map.png">
+        </div>
+    </div>
+<script src="index.js"></script>
+</body>
+</html>
